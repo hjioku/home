@@ -1,0 +1,11 @@
+/* Code tidied up by ScrapBook */
+.mosaic-block { position: relative; overflow: hidden; background: rgb(255, 255, 255) url("progress.gif") no-repeat scroll center center; border: medium none; box-sizing: border-box; display: block !important; margin-top: 0px; margin-bottom: 1.5em; }
+.mosaic-block img { margin: 0px; border: medium none; width: 100%; height: auto; }
+.mosaic-backdrop { display: none; top: 0px; height: 100%; min-height: 100%; width: 100%; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.mosaic-overlay { display: none; z-index: 5; position: absolute; width: 100%; height: 100%; background: rgb(17, 17, 17) none repeat scroll 0% 0%; box-sizing: border-box; text-decoration: none; }
+.circle .mosaic-overlay { background: rgba(0, 0, 0, 0.3) url("hover-magnify.png") no-repeat scroll center center; opacity: 0; display: none; }
+@media (min--moz-device-pixel-ratio: 1.5), not all, not all, not all, (min-resolution: 1.5dppx) {
+  .circle .mosaic-overlay { background: rgba(0, 0, 0, 0.3) url("hover-magnify@2x.png") no-repeat scroll center center / 50px 50px; }
+}
+@media (min--moz-device-pixel-ratio: 1.5), not all, not all, not all, (min-resolution: 1.5dppx) {
+}

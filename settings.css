@@ -1,0 +1,88 @@
+/* Code tidied up by ScrapBook */
+@font-face {
+  font-family: "revicons";
+  font-style: normal;
+  font-weight: normal;
+  src: url("revicons.eot") format("embedded-opentype"), url("revicons.woff") format("woff"), url("revicons.ttf") format("truetype"), url("revicons.svg") format("svg");
+}
+.rev_slider_wrapper { position: relative; z-index: 0; }
+.rev_slider { position: relative; overflow: visible; }
+.tp-simpleresponsive img, .rev_slider img { max-width: none !important; transition: none 0s ease 0s ; margin: 0px; padding: 0px; border: medium none; }
+.rev_slider > ul, .rev_slider_wrapper > ul, .tp-revslider-mainul > li, .rev_slider > ul > li, .rev_slider > ul > li::before, .tp-revslider-mainul > li::before, .tp-simpleresponsive > ul, .tp-simpleresponsive > ul > li, .tp-simpleresponsive > ul > li::before, .tp-revslider-mainul > li, .tp-simpleresponsive > ul > li { list-style: outside none none !important; position: absolute; margin: 0px !important; padding: 0px !important; overflow: visible; background-image: none; background-position: 0px 0px; text-indent: 0em; top: 0px; left: 0px; }
+.tp-revslider-mainul > li, .rev_slider > ul > li, .rev_slider > ul > li::before, .tp-revslider-mainul > li::before, .tp-simpleresponsive > ul > li, .tp-simpleresponsive > ul > li::before, .tp-revslider-mainul > li, .tp-simpleresponsive > ul > li { visibility: hidden; }
+.tp-revslider-slidesli, .tp-revslider-mainul { padding: 0px !important; margin: 0px !important; list-style: outside none none !important; }
+.rev_slider li.tp-revslider-slidesli { position: absolute !important; }
+.rev_slider .tp-caption, .rev_slider .caption { position: relative; visibility: hidden; white-space: nowrap; display: block; }
+.rev_slider .tp-mask-wrap .tp-caption, .rev_slider .tp-mask-wrap :last-child, .wpb_text_column .rev_slider .tp-mask-wrap .tp-caption, .wpb_text_column .rev_slider .tp-mask-wrap :last-child { margin-bottom: 0px; }
+.tp-caption { z-index: 1; }
+.tp-caption { -moz-user-select: none; position: absolute; }
+.rev_slider_wrapper { width: 100%; }
+.fullwidthbanner-container { position: relative; padding: 0px; overflow: hidden; }
+.fullwidthbanner-container .fullwidthabanner { width: 100%; position: relative; }
+@keyframes rev-ani-mouse {
+0% { opacity: 1; top: 29%; }
+15% { opacity: 1; top: 50%; }
+50% { opacity: 0; top: 50%; }
+100% { opacity: 0; top: 29%; }
+}
+@keyframes rev-ani-mouse {
+0% { opacity: 1; top: 29%; }
+15% { opacity: 1; top: 50%; }
+50% { opacity: 0; top: 50%; }
+100% { opacity: 0; top: 29%; }
+}
+@keyframes rev-ani-mouse {
+0% { opacity: 1; top: 29%; }
+15% { opacity: 1; top: 50%; }
+50% { opacity: 0; top: 50%; }
+100% { opacity: 0; top: 29%; }
+}
+.tp-bannertimer { visibility: hidden; width: 100%; height: 5px; background: rgba(0, 0, 0, 0.15) none repeat scroll 0% 0%; position: absolute; z-index: 200; top: 0px; }
+.tp-bannertimer.tp-bottom { top: auto; bottom: 0px !important; height: 5px; }
+.tp-simpleresponsive img { -moz-user-select: none; }
+.tp-caption img { background: transparent none repeat scroll 0% 0%; }
+.tp-caption.slidelink a span { background: rgba(0, 0, 0, 0) url("coloredbg.png") repeat scroll 0% 0%; }
+.tp-shape { width: 100%; height: 100%; }
+.tp-loader { top: 50%; left: 50%; z-index: 10000; position: absolute; }
+.tp-loader.spinner0 { width: 40px; height: 40px; background: rgba(0, 0, 0, 0) url("loader.gif") no-repeat scroll center center; box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15); margin-top: -20px; margin-left: -20px; animation: 1.2s ease-in-out 0s normal none infinite running tp-rotateplane; border-radius: 3px; }
+@keyframes tp-rotateplane {
+0% { transform: perspective(120px); }
+50% { transform: perspective(120px) rotateY(180deg); }
+100% { transform: perspective(120px) rotateY(180deg) rotateX(180deg); }
+}
+@keyframes tp-rotateplane {
+0% { transform: perspective(120px) rotateX(0deg) rotateY(0deg); }
+50% { transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg); }
+100% { transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg); }
+}
+@keyframes tp-scaleout {
+0% { transform: scale(0); }
+100% { transform: scale(1); opacity: 0; }
+}
+@keyframes tp-scaleout {
+0% { transform: scale(0); }
+100% { transform: scale(1); opacity: 0; }
+}
+@keyframes tp-bouncedelay {
+0%, 80%, 100% { transform: scale(0); }
+40% { transform: scale(1); }
+}
+@keyframes tp-bouncedelay {
+0%, 80%, 100% { transform: scale(0); }
+40% { transform: scale(1); }
+}
+@keyframes tp-rotate {
+100% { transform: rotate(360deg); }
+}
+@keyframes tp-rotate {
+100% { transform: rotate(360deg); }
+}
+@keyframes tp-bounce {
+0%, 100% { transform: scale(0); }
+50% { transform: scale(1); }
+}
+@keyframes tp-bounce {
+0%, 100% { transform: scale(0); }
+50% { transform: scale(1); }
+}
+.tp-bannertimer { background: rgba(0, 0, 0, 0.15) none repeat scroll 0% 0%; height: 5px; }
