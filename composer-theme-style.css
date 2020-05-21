@@ -1,0 +1,16 @@
+/* Code tidied up by ScrapBook */
+.wpb_row, .wpb_content_element, ul.wpb_thumbnails-fluid > li, .last_toggle_el_margin, .wpb_button {  }
+.post .vc_row:last-child { padding-bottom: 0px; margin-bottom: 0px; }
+.single-content > .vc_row, .vc_desktop.vc_transform h1.title { margin-left: auto; margin-right: auto; box-sizing: border-box; padding-left: 5px; padding-right: 5px; }
+.vc_desktop.vc_transform h1.title { padding-left: 20px; padding-right: 20px; }
+@media only screen and (max-width: 480px) {
+}
+@media only screen and (max-width: 768px) {
+}
+.wpb_content_element a { text-decoration: none; }
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 480px) {
+}
+@media only screen and (max-width: 768px) {
+}

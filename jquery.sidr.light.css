@@ -1,0 +1,23 @@
+/* Code tidied up by ScrapBook */
+.sidr { display: none; position: fixed; top: 0px; height: 100%; z-index: 999999; width: 260px; max-width: 260px; overflow-y: auto; }
+.sidr .menuHideBtn { margin-bottom: 0px !important; }
+.sidr .menuHideBtn a { padding: 0.5em 0px 0.5em 15px !important; font-size: 120%; }
+.sidr .sidr-inner { padding: 0px 0px 150px; }
+.sidr.left { left: -260px; right: auto; }
+.sidr ul { margin: 0px 0px 15px; padding: 0px; border-top-style: solid !important; border-top-width: 1px !important; position: relative; }
+.sidr ul li { margin: 0px; line-height: 2; border-bottom-style: solid; border-bottom-width: 1px; }
+.sidr ul li a { line-height: 2; }
+.sidr ul, .sidr ul:hover, .sidr ul li:hover ul { display: block !important; position: relative !important; left: 0px !important; top: 0px !important; }
+.sidr ul::before { display: none !important; }
+.sidr ul li:hover, .sidr ul li.active, .sidr ul li.sidr-class-active { border-top: medium none; }
+.sidr ul.nav li, .sidr ul.nav li * { box-sizing: border-box; }
+.sidr ul.nav > li a, .sidr ul.nav > li span { padding: 0px 10px !important; display: block; text-decoration: none; }
+.sidr ul.nav > li > ul > li a, .sidr ul.nav > li > ul > li span { padding: 0px 25px !important; }
+.sidr ul li { width: 100%; }
+.sidr ul li::before { padding-left: 4px; font-size: 90%; display: none; }
+.sidr ul li.fa > a::before { display: inline; padding-left: 4px; padding-right: 5px; font-size: 90%; font-family: "FontAwesome"; content: ""; }
+.sidr ul.nav > li.fa > a { padding-left: 10px !important; }
+.sidr ul li ul { border-bottom: medium none; margin: 0px; }
+.sidr ul li ul li:last-child { border-bottom: medium none; }
+.sidr ul li ul li:hover, .sidr ul li ul li.active, .sidr ul li ul li.sidr-class-active { border-top: medium none; }
+.sidr ul li ul li a, .sidr ul li ul li span { padding-left: 30px; }
