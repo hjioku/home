@@ -1,0 +1,19 @@
+/* Code tidied up by ScrapBook */
+@font-face {
+  font-family: "font-star";
+  font-style: normal;
+  font-weight: normal;
+  src: url("font-star.eot") format("embedded-opentype"), url("font-star.woff") format("woff"), url("font-star.ttf") format("truetype"), url("font-star.svg") format("svg");
+}
+@font-face {
+  font-family: "font-loader";
+  font-style: normal;
+  font-weight: normal;
+  src: url("font-loader.eot") format("embedded-opentype"), url("font-loader.woff") format("woff"), url("font-loader.ttf") format("truetype"), url("font-loader.svg") format("svg");
+}
+@media screen and (max-width: 1040px) {
+}
+@media screen and (max-width: 860px) {
+}
+@media screen and (max-width: 470px) {
+}
